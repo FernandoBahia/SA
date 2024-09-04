@@ -33,7 +33,7 @@ const LoginAdmin = () => {
                 <br /><br />
                 <h4 className='bemvindo'>Bem-Vindo Administrador</h4>
                 <br />
-               <label className='labelMatricula'>Matricula:</label>
+               <label className='labelEmail'>Email:</label>
                <input type="email" name="email" placeholder="Digite seu email" />
                <br />
                <label className='labelAdmin'>Senha:</label>

@@ -28,6 +28,24 @@ const CadastroCliente = () => {
                     <button onClick={IrParaCadastro} className="botao-cadastrar"><span className='gradient'>Cadastrar</span></button>
                 </div>
             </div>
+            <div className="login-container">
+             <form>
+                <br /><br />
+                <h4 className='bemvindo'>Cadastrar-se como Cliente</h4>
+                <br />
+               <label className='labelNome'>Nome:</label>
+               <input type="text" name="nome" placeholder="Digite seu nome" />
+               <br />
+               <label className='labelAdmin'>Email:</label>
+               <input type="email" name="email" placeholder="Digite seu email" />
+               <br />
+               <label className='labelAdmin'>Senha:</label>
+               <input type="password" name="password" placeholder="Digite sua senha" />
+               <button type="submit">Cadastrar-se</button><br></br>
+               <button type="submit">Já tem uma conta?</button>
+
+           </form>
+          </div>
         </div>
     );
 };

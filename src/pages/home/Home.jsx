@@ -42,7 +42,7 @@ function Home() {
         <div className='div-filtro-barra'>
           <div className="div-filtros">
 
-            <div className="dropdown">
+          <div className="dropdown">
               <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Área
               </button>
